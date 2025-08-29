@@ -8,7 +8,7 @@ class Enemy(Entity):
         super().__init__(name, position)
         self.shot_delay = 30
 
-    def move(self,):
+    def move(self, ):
         self.rect.centery += 1
 
     def shoot(self):
